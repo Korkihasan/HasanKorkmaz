@@ -2,12 +2,9 @@
 
 .navbar-toggler{color:$light;}
 
-
-
-
 .logo{display: flex;
-      align-items: center;
-}
+      align-items: center;}
+
 .logo-dot{width:25px;
           height: 25px;
           border-radius:100%;
@@ -15,7 +12,8 @@
 
 .logo-text{font-size:24px;
            font-weight:600;
-          margin: 0 10px 0 5px;}
+           margin: 0 10px 0 5px;
+           color: $primary;}
           
 .job{font-size:12px;
      font-weight:300;}

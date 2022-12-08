@@ -1,0 +1,15 @@
+.contact{background-image: url(/images/background-contact.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        height:700px;}
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $gray-500;
+    height: 200px;
+    width: 200px;
+    
+}

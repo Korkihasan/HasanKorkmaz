@@ -1,6 +1,6 @@
-# Masir Door
+# Hasan Korkmaz
 
-Masir Door için tasarlanmış web sitesi tasarımının HTML dönüşümü projesidir.
+Hasan Korkmaz için tasarlanmış web sitesi tasarımının HTML dönüşümü projesidir.
 
 ## Kurulum Talimatları
 
@@ -38,11 +38,11 @@ yarn build
 yarn archive
 ```
 
-Bu komut çalıştırıldıktan sonra, _Gulp.js_ otomatik tüm çıktıyı oluşturacak ve proje dizininde yer alan `build` klasörüne `masirdoor_build_[tarih]_[saat].zip` dosyası olarak kaydedecektir.
+Bu komut çalıştırıldıktan sonra, _Gulp.js_ otomatik tüm çıktıyı oluşturacak ve proje dizininde yer alan `build` klasörüne `hasankorkmaz_build_[tarih]_[saat].zip` dosyası olarak kaydedecektir.
 
 ## Demo
 
-Projenin demo halini [masirdoor.vercel.app](https://masirdoor.vercel.app) adresinden görüntüleyebilirsiniz.
+Projenin demo halini [hasankorkmaz.vercel.app](https://hasankorkmaz.vercel.app) adresinden görüntüleyebilirsiniz.
 
 ## Hata ve Yeni Özellik İstekleri
 
