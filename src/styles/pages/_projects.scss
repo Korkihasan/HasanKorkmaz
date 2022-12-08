@@ -1,0 +1,43 @@
+.project-text{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: .5s ease;
+   }
+        
+.project-foto {
+  width: 400px;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: .5s ease;
+}
+
+.project-foto img{
+  border-radius:20px;
+}
+
+
+
+.project-box:hover .project-text.ortakopacity1,
+.project-box:hover .project-foto.ortakopacity1{
+  opacity: 1;
+ }
+
+.project-box:hover .project-text.ortakopacity2,
+.project-box:hover .project-foto.ortakopacity2 {
+  opacity: 1;
+}
+
+.project-box:hover .project-text.ortakopacity3,
+.project-box:hover .project-foto.ortakopacity3 {
+  opacity: 1;
+}
+
+.project-box:hover .project-text.ortakopacity4,
+.project-box:hover .project-foto.ortakopacity4 {
+  opacity: 1;
+}
+
+
+

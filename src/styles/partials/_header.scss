@@ -1,0 +1,26 @@
+.header{color: $light;}
+
+.navbar-toggler{color:$light;}
+
+
+
+
+.logo{display: flex;
+      align-items: center;
+}
+.logo-dot{width:25px;
+          height: 25px;
+          border-radius:100%;
+          background-color:$primary;}
+
+.logo-text{font-size:24px;
+           font-weight:600;
+          margin: 0 10px 0 5px;}
+          
+.job{font-size:12px;
+     font-weight:300;}
+
+.nav-item{font-size:18px;
+          font-weight:700px;}
+
+.nav-link{color: $light;}

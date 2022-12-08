@@ -1,0 +1,32 @@
+<div class="modal fade modal-search" id="modalSearch" tabindex="-1" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<form class="search-form">
+					<label for="searchInput" class="sr-only">Aramak istediğiniz kelimeyi giriniz.</label>
+					<input type="search" name="ara" id="searchInput" class="form-control" placeholder="Ne aramıştınız?" required>
+					<button type="submit" class="btn btn-search" aria-label="Ara">
+						<i class="icon icon-chevron-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-sm btn-dismiss" data-bs-dismiss="modal">Aramayı Kapat</button>
+		<div class="container">
+			<div class="row align-items-center g-0">
+				<div class="col-lg-4 col-xl-3 text-center text-lg-start">
+					<div class="search-title">Öne Çıkan Ürün Grupları</div>
+				</div>
+				<div class="col-lg-8 col-xl-9 text-center text-lg-end">
+					<ul class="search-keywords">
+						{% for i in range(1,4) %}
+							<li><a href="{{ groups[i].link }}">{{ groups[i].title }}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

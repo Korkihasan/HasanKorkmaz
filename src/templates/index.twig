@@ -1,0 +1,31 @@
+{% extends 'layouts/master.twig' %} {% set pageName = " index" %} {% set pageTitle = "" %} {% block content %}
+<div class="featured-section">
+	<div class="container">
+		<div class="row">
+			<div class="main-page-content">
+				<div class="col-4">
+					<div class="main-page-content-picture"><img src="/images/contant-picture.png" /></div>
+				</div>
+				<div class="col-4">
+					<div class="main-page-textual-content">
+						<h1>Hello</h1>
+						<h4>Wellcome to my site</h4>
+						<p>
+							I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to
+							tella story and let your users know a little more about you.
+						</p>
+
+						<button class="btn" onclick="location.href='http://localhost:9050/resume.html'">Resume</button>
+						<button class="btn" onclick="location.href='http://localhost:9050/projects.html'">
+							Projects
+						</button>
+						<button class="btn" onclick="location.href='http://localhost:9050/contact.html'">
+							Contact
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
