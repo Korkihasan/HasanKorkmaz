@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Hasan Korkmaz</title>
+		<meta name="description" content="Hasan Korkmaz Tanıtım Web Sitesi." />
+		<meta name="keywords" content="Hasan,Korkmaz,Hasan Korkmaz,Korkmaz Hasan" />
+		<link rel="shortcut icon" href="images/favicon.png" />
+		<link rel="apple-touch-icon" href="images/favicon.png" />
+		<meta name="theme-color" content="#BA233C" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.min.css" />
+	</head>
+	<body>
+		<header class="header" id="header">
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<div class="navbar-brand">
+				<div class="logo">
+					<a class="d-flex align-items-center" href="http://localhost:9050/"
+						><div class="logo-dot"></div>
+						<div class="logo-text">Hasan Korkmaz</div></a
+					><sup class="job">Frontend developer</sup>
+				</div>
+			</div>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<form class="navbar-nav d-flex" role="search">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="http://localhost:9050/resume.html">Resume</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="http://localhost:9050/projects.html"
+						>Projects</a
+					>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="http://localhost:9050/contact.html">Contact</a>
+				</li>
+			</form>
+		</div>
+	</nav>
+</header>
+		<main class="content-wrapper"><div class="featured-section">
+	<div class="container">
+		<div class="row">
+			<div class="main-page-content">
+				<div class="col-4">
+					<div class="main-page-content-picture"><img src="/images/contant-picture.png" /></div>
+				</div>
+				<div class="col-4">
+					<div class="main-page-textual-content">
+						<h1>Hello</h1>
+						<h4>Wellcome to my site</h4>
+						<p>
+							I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to
+							tella story and let your users know a little more about you.
+						</p>
+
+						<button class="btn" onclick="location.href='http://localhost:9050/resume.html'">Resume</button>
+						<button class="btn" onclick="location.href='http://localhost:9050/projects.html'">
+							Projects
+						</button>
+						<button class="btn" onclick="location.href='http://localhost:9050/contact.html'">
+							Contact
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</main>
+		<footer class="footer" id="footer">
+	<div class="footer-line"></div>
+	<div class="container">
+		<div class="row">
+			<div class="footer-nav">
+				<div class="col">
+					<div>
+						<h4>Email</h4>
+						<a href="mailto:info@mysite.com">hasankorkmaz@info.com</a>
+					</div>
+				</div>
+				<div class="col">
+					<div>
+						<h4>Github</h4>
+						<a href="https://github.com/Korkihasan">Hasan Korkmaz</a>
+					</div>
+				</div>
+				<div class="col">
+					<div>
+						<h4>Follow Me</h4>
+						<div>iconlar gelicek</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+ <div class="modal fade modal-search" id="modalSearch" tabindex="-1" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<form class="search-form">
+					<label for="searchInput" class="sr-only">Aramak istediğiniz kelimeyi giriniz.</label>
+					<input type="search" name="ara" id="searchInput" class="form-control" placeholder="Ne aramıştınız?" required>
+					<button type="submit" class="btn btn-search" aria-label="Ara">
+						<i class="icon icon-chevron-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-sm btn-dismiss" data-bs-dismiss="modal">Aramayı Kapat</button>
+		<div class="container">
+			<div class="row align-items-center g-0">
+				<div class="col-lg-4 col-xl-3 text-center text-lg-start">
+					<div class="search-title">Öne Çıkan Ürün Grupları</div>
+				</div>
+				<div class="col-lg-8 col-xl-9 text-center text-lg-end">
+					<ul class="search-keywords">
+													<li><a href=""></a></li>
+													<li><a href=""></a></li>
+													<li><a href=""></a></li>
+													<li><a href=""></a></li>
+											</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		<div class="back-to-top" title="Yukarı Çık"><i class="icon icon-chevron-circle-up" aria-hidden="true"></i></div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/scripts.min.js"></script>
+	</body>
+</html>
