@@ -6,7 +6,7 @@ module.exports = {
   clean: ["dist/"],
   content: "./boilerplate.content.json",
   fonts: {
-    input: ["src/iconfont/output/fonts/**/*", "src/fonts/**/*"],
+    input: ["src/iconfont/output/fonts/**/*", "src/fonts/**/*",  "src/vendor/font-awesome/fonts/**/*"],
     output: "dist/fonts/",
   },
   images: {
