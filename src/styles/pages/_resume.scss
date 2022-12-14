@@ -8,12 +8,20 @@
     border-radius: 5px;
 }
 
+.skill{height: 5px;
+        border-radius: 5px;
+        animation-name: example;
+        animation-duration: 4s;}
+
+@keyframes example {
+    0%   {width:0%;}
+  }
+
+
 .html h6{color:$orange;}
 .html-skills{
     background-color: $orange;
     width: 80%;
-    height: 5px;
-    border-radius: 5px;
 }
 .css h6{color: $purple;}
 .css-skills{
