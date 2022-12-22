@@ -1,24 +1,35 @@
-.header{color: $light;}
+.navbar {
+  display: block;
+  @include from($tablet) {
+    display: flex;
+  }
+}
 
-.navbar-toggler{color:$light;}
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-logo img {
+  width: 40px;
+}
+.logo-text {
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 5px;
+}
 
-.logo{display: flex;
-      align-items: center;}
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.logo-dot{width:25px;
-          height: 25px;
-          border-radius:100%;
-          background-color:$primary;}
+.nav {
+  display: flex;
+  align-items: center;
+}
 
-.logo-text{font-size:24px;
-           font-weight:600;
-           margin: 0 10px 0 5px;
-           color: $primary;}
-          
-.job{font-size:12px;
-     font-weight:300;}
-
-.nav-item{font-size:18px;
-          font-weight:700px;}
-
-.nav-link{color: $light;}
+.nav-item {
+  font-size: 20px;
+}

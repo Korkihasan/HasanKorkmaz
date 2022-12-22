@@ -1,23 +1,26 @@
-{% extends 'layouts/master.twig' %} {% set pageName = " index" %} {% set pageTitle = "" %} {% block content %}
+{% extends 'layouts/master.twig' %} {% set pageName = " index" %} {% set pageTitle = "Anasayfa" %} {% block content %}
 <div class="featured-section">
 	<div class="container">
-		<div class="row">
-			<div class="main-page-content">
-				<div class="col-4">
-					<div class="main-page-content-picture"><img src="/images/contant-picture.png" /></div>
+		<div class="content">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-md-4">
+					<div class="contnent-picture">
+						<img src="/images/contant-picture.png" />
+					</div>
 				</div>
-				<div class="col-4">
-					<div class="main-page-textual-content">
-						<h1>Hello</h1>
-						<h4>Wellcome to my site</h4>
+				<div class="col-md-4">
+					<div class="content-text">
+						<h1>Halli Hallo</h1>
+						<h2>Wellcome to my site</h2>
 						<p>
-							I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to
-							tella story and let your users know a little more about you.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum quasi, fugit consequatur
+							molestiae nobis dicta facere accusamus minus omnis
 						</p>
-
-						<button class="btn" onclick="location.href='resume.html'">Resume</button>
-						<button class="btn" onclick="location.href='projects.html'">Projects</button>
-						<button class="btn" onclick="location.href='contact.html'">Contact</button>
+						<div class="content-buttons">
+							<button class="btn">Resume</button>
+							<button class="btn">Projects</button>
+							<button class="btn">Contact</button>
+						</div>
 					</div>
 				</div>
 			</div>
