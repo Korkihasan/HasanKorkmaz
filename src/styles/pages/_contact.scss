@@ -1,16 +1,41 @@
-.contact{background-image: url(/images/background-contact.png);
-        background-repeat: no-repeat;
-        background-position: bottom left;
-        height:700px;
-        }
+.contact {
+  background-image: url(/images/background-contact.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  @include from($desktop) {
+    height: 75vh;
+  }
+}
 
-.contact-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: $light;
-    height: 200px;
-    width: 200px;
-    
+.contact-explanation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.contact-explanation p {
+  width: 400px;
+  max-width: 100%;
+}
+
+.contact-box {
+  width: fit-content;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-box i {
+  font-size: 80px;
+  margin-bottom: 10px;
+  @include from($desktop) {
+    font-size: 100px;
+  }
+}
+
+.contact-box i:hover {
+  transform: scale(1.1);
 }

@@ -2,23 +2,33 @@
 
 /* Footer */
 
-
-
-footer{
-display: flex;
-align-items: center;
-flex-direction: column;
+.footer-line {
+  width: 95%;
+  height: 1px;
+  background-color: $gray-800;
 }
-.footer-line{width:95%;height:1px;
-background-color: $gray-800;}
 
-.footer-nav{padding: 50px 0 80px; display: flex;}
+.footer-navbar {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-navs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.telif {
+  color: $gray-600;
+}
 
-footer .col{display: flex;
-align-items: center;
-flex-direction: column;}
-
-
-
-
-
+.footer-navs .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  margin: 0px 3px;
+}

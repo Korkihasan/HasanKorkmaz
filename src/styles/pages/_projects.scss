@@ -1,28 +1,47 @@
-.project-text{
-    cursor: pointer;
-    opacity: 0.5;
-    transition: .5s ease;
-   }
-        
-.project-foto {
-  width: 400px;
-  height: auto;
-  position: relative;
+.project-position {
+  justify-content: center;
+  align-items: center;
+  @include from($desktop) {
+    justify-content: space-around;
+  }
+}
+
+.project-box-element {
+  display: flex;
+  justify-content: center;
+}
+
+.project-text {
   cursor: pointer;
   opacity: 0.5;
-  transition: .5s ease;
+  transition: 0.5s ease;
+  width: 400px;
+  max-width: 100%;
+  @include from($desktop) {
+    width: auto;
+    max-width: none;
+  }
 }
 
-.project-foto img{
-  border-radius:20px;
+.project-foto {
+  height: auto;
+  position: relative;
+  width: fit-content;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s ease;
 }
 
-
+.project-foto img {
+  border-radius: 20px;
+  width: 400px;
+  max-width: 100%;
+}
 
 .project-box:hover .project-text.ortakopacity1,
-.project-box:hover .project-foto.ortakopacity1{
+.project-box:hover .project-foto.ortakopacity1 {
   opacity: 1;
- }
+}
 
 .project-box:hover .project-text.ortakopacity2,
 .project-box:hover .project-foto.ortakopacity2 {
@@ -38,6 +57,3 @@
 .project-box:hover .project-foto.ortakopacity4 {
   opacity: 1;
 }
-
-
-

@@ -1,7 +1,18 @@
+.content {
+  @include from($desktop) {
+    height: 80vh;
+    display: flex;
+  }
+}
+
 .contnent-picture {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
+  @include from($desktop) {
+    margin: 0px;
+  }
 }
 
 .contnent-picture img {
@@ -14,16 +25,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  @include from($tablet) {
+  margin: 20px 0px;
+  @include from($desktop) {
     display: block;
+    margin: 0px;
   }
+}
+
+.content-text h2 {
+  width: max-content;
 }
 
 .content-text p {
   text-align: center;
-  width: 400px;
-  @include from($tablet) {
-    width: auto;
+
+  @include from($desktop) {
     text-align: start;
   }
 }

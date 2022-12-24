@@ -5,24 +5,26 @@
   margin-bottom: 1.25rem;
 }
 .form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
   @include from($widescreen) {
     height: 2.875rem;
-    padding: .75rem 1rem;
+    padding: 0.75rem 1rem;
     font-size: 1.125rem;
     line-height: 1.625rem;
-   
-  }  
+  }
 }
+
 .form-control:focus {
   box-shadow: none;
+  background-color: transparent;
 }
 
 textarea.form-control {
-  @include from($widescreen) {
-    height: auto;
-    min-height: 9.375rem;
-    resize: vertical;
-  }
+  height: auto;
+  min-height: 9.375rem;
+  resize: vertical;
 }
 
 .input-wrapper {
